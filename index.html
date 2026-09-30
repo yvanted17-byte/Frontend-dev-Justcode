@@ -1,69 +1,87 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio – Jour 5</title>
+  <title>Portfolio – Day 6</title>
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="#home">Accueil</a></li>
-      <li><a href="#about">À propos</a></li>
-      <li><a href="#skills">Compétences</a></li>
-      <li><a href="#projects">Projets</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
 
-  <header id="home">
-    <img src="images/profil.jpg" alt="Photo de profil de Ted NgY" width="150">
-    <h1>My Name</h1>
-    <p><strong>Ted NgY</strong></p>
-    <p><em>My objective is to build a personal project at the end of this learning streak.</em></p>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div id="home" class="hero">
+      <img src="images/profil.jpg" alt="Profile picture" width="150">
+      <h1><span>My Name</span></h1>
+      <p><strong>Ted NgY</strong></p>
+      <p><em>My objective is to build a personal project at the end of this learning streak.</em></p>
+    </div>
   </header>
 
   <section id="about">
-    <h2>About me</h2>
-    <p>I’m a motivated learner who wants to improve his web development skills. Every day I work step by step to reach my goal.</p>
-    <p>This portfolio shows my daily evolution.</p>
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I’m a motivated learner who wants to improve his web development skills. Every day I work step by step to reach my goal.</p>
+      <p>This portfolio shows my daily evolution.</p>
+    </div>
   </section>
 
   <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML structure</li>
-      <li>Head & body organization</li>
-      <li>Titles & paragraphs</li>
-      <li>Text emphasis (strong, em)</li>
-    </ul>
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>PROGAMMATION C</li>
+        <li>jAVA PYTHON</li>
+        <li>Css, javascript, react</li>
+      </ul>
+    </div>
   </section>
 
   <section id="projects">
-    <h2>Projects</h2>
+    <div class="container">
+      <h2>Projects</h2>
 
-    <article>
-      <h3>Project 1</h3>
-      <img src="images/projet1.jpg" alt="Image du projet 1" width="300">
-      <p>Description du projet 1…</p>
-    </article>
+      <article class="project">
+        <h3>Presentation 1</h3>
+        <img src="images/projet1.jpg" alt="Project 1 image" width="300">
+        <p><b>Description:</b></p>
+        <p>Plug and Play: l'architechture Modulaire.</p>
+      </article>
 
-    <article>
-      <h3>Project 2</h3>
-      <img src="images/projet2.jpg" alt="Image du projet 2" width="300">
-      <p>Description du projet 2…</p>
-    </article>
+      <article class="project">
+        <h3>Projet 1</h3>
+        <img src="images/projet2.jpg" alt="Project 2 image" width="300">
+        <p>Git et HTML</p>
+      </article>
 
+    </div>
   </section>
-  
+
   <section id="contact">
-    <h2>Contact</h2>
-    <ul>
-      <li><a href="mailto:yourmail@example.com">Envoyer un email</a></li>
-      <li><a href="https://github.com/yourusername" target="_blank">Mon GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">Mon LinkedIn</a></li>
-    </ul>
+    <div class="container">
+      <h2>Contact</h2>
+      <ul>
+        <li><a href="mailto:yvanted@gmail.com">Send an email</a></li>
+        <li><a href="https://github.com/yvanted17-byte" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/yvannguimdo" target="_blank">LinkedIn</a></li>
+      </ul>
+    </div>
   </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 <span>Ted NgY</span> — Portfolio</p>
+    </div>
+  </footer>
 
 </body>
 </html>
