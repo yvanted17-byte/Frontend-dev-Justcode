@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio – Day 6</title>
+  <title>Portfolio – Day 9</title>
 </head>
 
 <body>
@@ -26,6 +26,7 @@
     </div>
   </header>
 
+  <!-- ABOUT -->
   <section id="about">
     <div class="container">
       <h2>About Me</h2>
@@ -34,15 +35,47 @@
     </div>
   </section>
 
+  <!-- SKILLS WITH TABLE -->
   <section id="skills">
     <div class="container">
       <h2>Skills</h2>
-      <ul>
-        <li>HTML</li>
-        <li>PROGAMMATION C</li>
-        <li>jAVA PYTHON</li>
-        <li>Css, javascript, react</li>
-      </ul>
+
+      <table border="1" cellpadding="10">
+        <thead>
+          <tr>
+            <th>Competence</th>
+            <th>year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML</td>
+            <td>2026</td>
+          </tr>
+          <tr>
+            <td>Programmation C</td>
+            <td>2025</td>
+          </tr>
+          <tr>
+            <td>Java / Python</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>CSS / JavaScript / React</td>
+            <td>2026</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- IFRAME EXTERNAL CONTENT -->
+      <h3>External Content</h3>
+      <iframe 
+        src="https://www.w3schools.com" 
+        width="600" 
+        height="350" 
+        style="border:1px solid #ccc;">
+      </iframe>
+
     </div>
   </section>
 
@@ -54,7 +87,7 @@
         <h3>Presentation 1</h3>
         <img src="images/projet1.jpg" alt="Project 1 image" width="300">
         <p><b>Description:</b></p>
-        <p>Plug and Play: l'architechture Modulaire.</p>
+        <p>Plug and Play: l'architecture Modulaire.</p>
       </article>
 
       <article class="project">
@@ -67,23 +100,32 @@
   </section>
 
   <section id="contact">
-<<<<<<< HEAD
     <div class="container">
-      <h2>Contact</h2>
+      <h2>Contact Me</h2>
+
+      <form action="#" method="post">
+
+        <label for="name">Your Name</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Your Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="phone">Phone Number</label>
+        <input id="phone" name="phone" type="tel">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
       <ul>
         <li><a href="mailto:yvanted@gmail.com">Send an email</a></li>
         <li><a href="https://github.com/yvanted17-byte" target="_blank">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/yvannguimdo" target="_blank">LinkedIn</a></li>
       </ul>
     </div>
-=======
-    <h2>Contact</h2>
-    <ul>
-      <li><a href="mailto:yvanted@gmail.com">Envoyer un email</a></li>
-      <li><a href="https://github.com/https://github.com/yvanted17-byte/Frontend-dev-Justcode/tree/main/images" target="_yvanted17-byte">Mon GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/yvannguimdo target="_yvannguimdo">Mon LinkedIn</a></li>
-    </ul>
->>>>>>> df79ffcc2bb68f3d64603cd8dc18f3ba64dd4d54
   </section>
 
   <footer>
