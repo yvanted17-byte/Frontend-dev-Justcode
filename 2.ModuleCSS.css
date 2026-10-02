@@ -1,1 +1,162 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ca6d41;
+  color: #021f4a;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.section {
+  margin-top: 40px;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #dbae4f;
+  padding: 15px 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: rgb(53, 5, 121);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 0;
+}
+
+.hero-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 4px solid #0077ff;
+}
+
+.hero-text h1 span {
+  color: #0077ff;
+}
+
+.hero-name {
+  font-size: 1.2rem;
+}
+
+.hero-desc {
+  max-width: 400px;
+}
+
+/* TABLE */
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.skills-table th,
+.skills-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.skills-table th {
+  background-color: #0077ff;
+  color: white;
+}
+
+/* PROJECTS */
+.project {
+  margin-bottom: 40px;
+}
+
+.project-img {
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* CONTACT FORM */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+textarea {
+  height: 120px;
+}
+
+.btn {
+  background-color: #0077ff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #005fcc;
+}
+
+/* CONTACT LINKS */
+.contact-links {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.contact-links li {
+  margin-bottom: 10px;
+}
+
+.contact-links a {
+  color: #0077ff;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
 

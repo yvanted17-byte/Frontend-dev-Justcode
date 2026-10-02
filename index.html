@@ -2,14 +2,15 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio – Day 9</title>
+  <title>Portfolio – Day 10</title>
+  <link rel="stylesheet" href="2.ModuleCSS.css">
 </head>
 
 <body>
 
   <header>
-    <nav>
-      <ul>
+    <nav class="navbar">
+      <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -18,119 +19,101 @@
       </ul>
     </nav>
 
-    <div id="home" class="hero">
-      <img src="images/profil.jpg" alt="Profile picture" width="150">
-      <h1><span>My Name</span></h1>
-      <p><strong>Ted NgY</strong></p>
-      <p><em>My objective is to build a personal project at the end of this learning streak.</em></p>
+    <div id="home" class="hero container">
+      <img src="images/profil.jpg" alt="Profile picture" class="hero-img">
+      <div class="hero-text">
+        <h1><span>My Name</span></h1>
+        <p class="hero-name"><strong>Ted NgY</strong></p>
+        <p class="hero-desc"><em>My objective is to build a personal project at the end of this learning streak.</em></p>
+      </div>
     </div>
   </header>
 
-  <!-- ABOUT -->
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>I’m a motivated learner who wants to improve his web development skills. Every day I work step by step to reach my goal.</p>
-      <p>This portfolio shows my daily evolution.</p>
-    </div>
+  <section id="about" class="section container">
+    <h2>About Me</h2>
+    <p>I’m a motivated learner who wants to improve his web development skills. Every day I work step by step to reach my goal.</p>
+    <p>This portfolio shows my daily evolution.</p>
   </section>
 
-  <section id="skills">
-    <div class="container">
-      <h2>Skills</h2>
+  <section id="skills" class="section container">
+    <h2>Skills</h2>
 
-      <table border="1" cellpadding="10">
-        <thead>
-          <tr>
-            <th>Competence</th>
-            <th>year</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HTML</td>
-            <td>2026</td>
-          </tr>
-          <tr>
-            <td>Programmation C</td>
-            <td>2025</td>
-          </tr>
-          <tr>
-            <td>Java / Python</td>
-            <td>2024</td>
-          </tr>
-          <tr>
-            <td>CSS / JavaScript / React</td>
-            <td>2026</td>
-          </tr>
-        </tbody>
-      </table>
+    <table class="skills-table">
+      <thead>
+        <tr>
+          <th>Competence</th>
+          <th>Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>HTML</td><td>2026</td></tr>
+        <tr><td>Programmation C</td><td>2025</td></tr>
+        <tr><td>Java / Python</td><td>2024</td></tr>
+        <tr><td>CSS / JavaScript / React</td><td>2026</td></tr>
+      </tbody>
+    </table>
 
-      <!-- IFRAME EXTERNAL CONTENT -->
-      <h3>External Content</h3>
-      <iframe 
-        src="https://grafikart.fr/formations/html" 
-        width="600" 
-        height="350" 
-        style="border:1px solid #ccc;">
-      </iframe>
-
-    </div>
+    <h3>External Content</h3>
+    <p>
+      <a href="https://grafikart.fr/formations/html" target="_blank">
+        Voir la formation HTML sur Grafikart
+      </a>
+    </p>
   </section>
 
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
+  <section id="projects" class="section container">
+    <h2>Projects</h2>
 
-      <article class="project">
-        <h3>Presentation 1</h3>
-        <img src="images/projet1.jpg" alt="Project 1 image" width="300">
-        <p><b>Description:</b></p>
-        <p>Plug and Play: l'architecture Modulaire.</p>
-      </article>
+    <article class="project">
+      <img src="images/projet1.jpg" alt="Project 1 image" class="project-img">
+      <h3>Presentation 1</h3>
+      <p><b>Description:</b> Plug and Play: l'architecture Modulaire.</p>
+    </article>
 
-      <article class="project">
-        <h3>Projet 1</h3>
-        <img src="images/projet2.jpg" alt="Project 2 image" width="300">
-        <p>Git et HTML</p>
-      </article>
-
-    </div>
+    <article class="project">
+      <img src="images/projet2.jpg" alt="Project 2 image" class="project-img">
+      <h3>Projet 1</h3>
+      <p>Git et HTML</p>
+    </article>
   </section>
 
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Me</h2>
+  <section id="contact" class="section container">
+    <h2>Contact Me</h2>
 
-      <form action="#" method="post">
+    <form action="#" method="post" class="contact-form">
 
+      <div class="form-group">
         <label for="name">Your Name</label>
         <input id="name" name="name" type="text" required>
+      </div>
 
+      <div class="form-group">
         <label for="email">Your Email</label>
         <input id="email" name="email" type="email" required>
+      </div>
 
+      <div class="form-group">
         <label for="phone">Phone Number</label>
         <input id="phone" name="phone" type="tel">
+      </div>
 
+      <div class="form-group">
         <label for="message">Message</label>
         <textarea id="message" name="message" required></textarea>
+      </div>
 
-        <button type="submit">Send Message</button>
-      </form>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
 
-      <ul>
-        <li><a href="mailto:yvanted@gmail.com">Send an email</a></li>
-        <li><a href="https://github.com/yvanted17-byte" target="_blank">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/yvannguimdo" target="_blank">LinkedIn</a></li>
-      </ul>
-    </div>
+    <ul class="contact-links">
+      <li><a href="mailto:yvanted@gmail.com">Send an email</a></li>
+      <li><a href="https://github.com/yvanted17-byte" target="_blank">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/yvannguimdo" target="_blank">LinkedIn</a></li>
+    </ul>
   </section>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2026 <span>Ted NgY</span> — Portfolio</p>
-    </div>
+  <footer class="footer">
+    <p>&copy; 2026 <span>Ted NgY</span> — Portfolio</p>
   </footer>
 
 </body>
