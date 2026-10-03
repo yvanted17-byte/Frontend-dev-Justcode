@@ -1,78 +1,79 @@
 # Frontend-dev-Justcode
-une formation frontend exercise orianted. par Just Code Kl
-# Programme de Formation — Développement Web Front-End
+a frontend training oriented around exercises, by Just Code KL
 
-Ce document présente le parcours complet de formation Front-End organisé par le Hochschulgruppe JustCode Kaiserslautern.  
-Le programme couvre Git/GitHub, HTML, CSS, JavaScript, JavaScript navigateur et React, avec une approche orientée projets et un portfolio comme fil rouge.
+# Training Program — Front-End Web Development
 
----
-
-##  Table des matières
-- [Présentation générale](#présentation-générale)
-- [Ressources principales](#ressources-principales)
-- [Vue d'ensemble du parcours](#vue-densemble-du-parcours)
-- [Module Git / GitHub](#module-git--github)
-- [Module HTML](#module-html)
-- [Module CSS](#module-css)
-- [Module JavaScript](#module-javascript)
-- [Transition JavaScript navigateur](#transition-javascript-navigateur)
-- [Module React](#module-react)
-- [Projet final](#projet-final)
-- [Progression du portfolio](#progression-du-portfolio)
-- [Tableau récapitulatif des projets](#tableau-récapitulatif-des-projets)
+This document presents the complete Front-End training path organized by the Hochschulgruppe JustCode Kaiserslautern.  
+The program covers Git/GitHub, HTML, CSS, JavaScript, Browser JavaScript, and React, with a project‑oriented approach and a portfolio as the main thread.
 
 ---
 
-##  Présentation générale
-
-Le programme suit un principe pédagogique simple :  
-> apprendre une notion, la pratiquer immédiatement, puis l’intégrer au portfolio.  
-Chaque semaine se termine par un devoir ou un mini‑projet.
-
-Le portfolio est construit en quatre versions successives :  
-- **V1 : HTML**  
-- **V2 : CSS responsive**  
-- **V3 : JavaScript navigateur (interactions)**  
-- **V4 : React (application complète)**
+## Table of Contents
+- [General Overview](#general-overview)
+- [Main Resources](#main-resources)
+- [Training Overview](#training-overview)
+- [Git / GitHub Module](#git--github-module)
+- [HTML Module](#html-module)
+- [CSS Module](#css-module)
+- [JavaScript Module](#javascript-module)
+- [Browser JavaScript Transition](#browser-javascript-transition)
+- [React Module](#react-module)
+- [Final Project](#final-project)
+- [Portfolio Progression](#portfolio-progression)
+- [Project Summary Table](#project-summary-table)
 
 ---
 
-##  Ressources principales
+## General Overview
+
+The program follows a simple educational principle:  
+> learn a concept, practice it immediately, then integrate it into the portfolio.  
+Each week ends with an assignment or a mini‑project.
+
+The portfolio is built in four successive versions:  
+- **V1: HTML**  
+- **V2: Responsive CSS**  
+- **V3: Browser JavaScript (interactions)**  
+- **V4: React (full application)**
+
+---
+
+## Main Resources
 
 - Git / GitHub — Grafikart  
 - HTML — Grafikart  
 - CSS — Grafikart  
 - JavaScript — Grafikart  
 - React — Grafikart  
-- Documentation GitHub  
+- GitHub Documentation  
 - MDN Web Docs
 
 ---
 
-##  Vue d’ensemble du parcours
+## Training Overview
 
-| Étape                  | Durée        | Livrable principal                     |
-|-----------------------|--------------|-----------------------------------------|
-| Git / GitHub          | Démarrage    | Dépôt GitHub du portfolio               |
-| HTML                  | 10 jours     | Portfolio V1 — structure                |
-| CSS                   | 3 semaines   | Portfolio V2 — design responsive        |
-| JavaScript            | 5 semaines   | Mini‑projets + logique                  |
-| JavaScript navigateur | Transition   | Portfolio V3 — interactif               |
-| React                 | 4 semaines   | Portfolio V4 — application React        |
-| Finalisation          | Fin parcours | Portfolio publié et présenté            |
+| Stage                 | Duration     | Main Deliverable                         |
+|-----------------------|--------------|-------------------------------------------|
+| Git / GitHub          | Start        | Portfolio GitHub repository               |
+| HTML                  | 10 days      | Portfolio V1 — structure                  |
+| CSS                   | 3 weeks      | Portfolio V2 — responsive design          |
+| JavaScript            | 5 weeks      | Mini‑projects + logic                     |
+| Browser JavaScript    | Transition   | Portfolio V3 — interactive                |
+| React                 | 4 weeks      | Portfolio V4 — React application          |
+| Finalization          | End          | Published and presented portfolio         |
 
 ---
 
-##  Module Git / GitHub
+## Git / GitHub Module
 
-Objectifs :
-- Créer un dépôt personnel pour le portfolio  
-- Créer un README.md  
-- Faire des commits réguliers  
-- Pousser le travail après chaque séance importante
+### Objectives
+- Create a personal repository for the portfolio  
+- Create a README.md  
+- Make regular commits  
+- Push work after each important session
 
-Routine recommandée :
+### Recommended Routine
 ```bash
 git add .
-git commit -m "Ajout de la section contact"
-git push.
+git commit -m "Added the contact section"
+git push
